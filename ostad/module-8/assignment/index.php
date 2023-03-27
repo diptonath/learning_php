@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration Form</title>
+	<title>Registration Form by Dipto Nath</title>
 </head>
 <body>
 	<h2>Registration Form</h2>
@@ -12,7 +12,6 @@
         }
         
     ?>
-    
 
 	<form method="POST" action="register.php">
 		<label for="fname">First Name:</label><br>
@@ -42,5 +41,6 @@
 		<input type="submit" value="Register">
 	</form>
     <?php session_unset();?>
+
 </body>
 </html>
